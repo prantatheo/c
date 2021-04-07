@@ -43,6 +43,7 @@ Suppose a variable X can take the values 1, 2, 3, or 4.
 The probabilities associated with each outcome are described by the following table:
 
 ![im2](https://user-images.githubusercontent.com/81485746/113810132-6246fd80-978b-11eb-90db-96f68c25f5fd.gif)
+
 	Outcome 	1	2	3	4
 	Probability	0.1	0.3	0.4	0.2
 The probability that X is equal to 2 or 3 is the sum of the two probabilities: P(X = 2 or X = 3) = P(X = 2) + P(X = 3) = 0.3 + 0.4 = 0.7. Similarly, the probability that X is greater than 1 is equal to 1 - P(X = 1) = 1 - 0.1 = 0.9, by the complement rule.
@@ -63,6 +64,9 @@ The probability that X is less than or equal to 1 is 0.1,
 the probability that X is less than or equal to 2 is 0.1+0.3 = 0.4,
 the probability that X is less than or equal to 3 is 0.1+0.3+0.4 = 0.8, and
 the probability that X is less than or equal to 4 is 0.1+0.3+0.4+0.2 = 1.
+
+![im3](https://user-images.githubusercontent.com/81485746/113810129-61ae6700-978b-11eb-997a-52b0049f8dd2.gif)
+
 The probability histogram for the cumulative distribution of this random variable is shown to the right:
 
 # Probability distribution:
@@ -74,6 +78,9 @@ P(2) = 1/4
 P(x) = ¼ + ½ +¼ = 1
 
 One way is that you visualize the grades and see if you can find a trend in the data.
+
+
+ ![im4](https://user-images.githubusercontent.com/81485746/113810127-607d3a00-978b-11eb-8f79-3eb2b7a4d16a.png)
  
 
 
@@ -171,7 +178,7 @@ For properties 8 to 12, w and v are random vectors; b is a constant vector; A is
 Because These “interarrival” times are typically exponentially distributed. If the mean interarrival time is 1/λ (so λ is the mean arrival rate per unit time), then the variance will be 1/λ2 (and the standard deviation will be 1/λ).
 
 The above construction can be made mathematically rigorous. The resulting random process is called a Poisson process with rate (or intensity) λλ. Here is a formal definition of the Poisson process.
-The Poisson Process
+# The Poisson Process
 
 Let λ>0λ>0 be fixed. The counting process {N(t),t∈[0,∞)}{N(t),t∈[0,∞)} is called a Poisson process with rates λλ if all the following conditions hold:
 N(0)=0N(0)=0;
@@ -191,13 +198,18 @@ P(X2>t|X1=s)=P(no arrival in (s,s+t]|X1=s)=P(no arrivals in (s,s+t])(independent
 We conclude that X2∼Exponential(λ)X2∼Exponential(λ), and that X1X1 and X2X2 are independent. The random variables X1X1, X2X2, ⋯⋯ are called the interarrival times of the counting process N(t)N(t). Similarly, we can argue that all XiXi's are independent and Xi∼Exponential(λ)Xi∼Exponential(λ) for i=1,2,3,⋯i=1,2,3,⋯.
 
 
-Interarrival Times for Poisson Processes
+# Interarrival Times for Poisson Processes
 
 If N(t)N(t) is a Poisson process with rate λλ, then the interarrival times X1X1, X2X2, ⋯⋯ are independent and
 Xi∼Exponential(λ), for i=1,2,3,⋯.Xi∼Exponential(λ), for i=1,2,3,⋯.
 Remember that if XX is exponential with parameter λ>0λ>0, then XX is a memoryless random variable, that is
 P(X>x+a|X>a)=P(X>x), for a,x≥0.P(X>x+a|X>a)=P(X>x), for a,x≥0.
 Thinking of the Poisson process, the memoryless property of the interarrival times is consistent with the independent increment property of the Poisson distribution. In some sense, both are implying that the number of arrivals in non-overlapping intervals are independent. 
+
+
+![im5](https://user-images.githubusercontent.com/81485746/113810136-63782a80-978b-11eb-8cf1-2dc43eebb0bf.png)
+
+
 
 
 
@@ -217,9 +229,12 @@ Copyright information
 
 
 # Code result output:
+
+![im6](https://user-images.githubusercontent.com/81485746/113810134-62df9400-978b-11eb-984a-0160f7dd23c9.jpg)
+
  
 
-Matcha.io:
-Table:
+# Matcha.io:
+# Table:
 # Conclusion:
 The single channel queuing model referred above, is the most simple model which is based on the above mentioned assumptions. However, in reality, there are several limitations of this model in its applications. One obvious limitation is the possibility that the waiting space may in fact be limited. Another possibility is that arrival rate is state dependent. That is, potential customers are discouraged from entering the queue if they observe a long line at the time they arrive. Another practical limitation of the model is that the arrival process is not stationary.
