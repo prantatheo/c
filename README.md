@@ -41,6 +41,7 @@ The probability distribution of a discrete random variable is a list of probabil
 Example:
 Suppose a variable X can take the values 1, 2, 3, or 4.
 The probabilities associated with each outcome are described by the following table:
+
 ![im2](https://user-images.githubusercontent.com/81485746/113810132-6246fd80-978b-11eb-90db-96f68c25f5fd.gif)
 	Outcome 	1	2	3	4
 	Probability	0.1	0.3	0.4	0.2
