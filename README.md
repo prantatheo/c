@@ -1,3 +1,28 @@
+# Simulation & Modeling Sessional
+# CSE424
+
+# Group 3
+1. Devesh Biswas (CSE 01406300) [Team Leader]
+
+2. Reaz Uddin Munna (CSE 01406368)
+
+3. Nusrat jahan (CSE 01406348)
+
+4. Md.Moinuddin (CSE 01406315)
+
+5. Rahat Alam (CSE 01406358)
+
+# Course Instructor:
+Mr. Muhtadir Rahman
+
+Lecturer, 
+
+Department of CSE
+
+Port City International University
+
+# Single channel queue system
+
 # Introduction:
 The single channel queuing model can be fitted in situations where the following seven conditions are fulfilled: The number of arrivals per unit of time is described by Poisson distribution. The mean arrival rate is denoted by λ. 
  single-channel queuing:
