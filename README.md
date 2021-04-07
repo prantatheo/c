@@ -2,6 +2,9 @@
 The single channel queuing model can be fitted in situations where the following seven conditions are fulfilled: The number of arrivals per unit of time is described by Poisson distribution. The mean arrival rate is denoted by λ. 
  single-channel queuing:
 			A queue can be thought of as nearly a black box. Jobs or "customers" arrive to the queue, possibly wait some time, take some time being processed, and then depart from the queue.
+			
+			![im1](https://user-images.githubusercontent.com/81485746/113812748-6f1a2000-9790-11eb-91d5-2a75004dce7f.PNG)
+			
 
 		
 
