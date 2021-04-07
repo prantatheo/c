@@ -1,7 +1,7 @@
 # Simulation & Modeling Sessional
 # CSE424
 
-# Group 3
+# Group 2
 1. Devesh Biswas (CSE 01406300) [Team Leader]
 
 2. Reaz Uddin Munna (CSE 01406368)
