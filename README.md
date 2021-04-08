@@ -262,8 +262,5 @@ Copyright information
 ![im6](https://user-images.githubusercontent.com/81485746/113810134-62df9400-978b-11eb-984a-0160f7dd23c9.jpg)
 
  
-
-# Matcha.io:
-# Table:
 # Conclusion:
 The single channel queuing model referred above, is the most simple model which is based on the above mentioned assumptions. However, in reality, there are several limitations of this model in its applications. One obvious limitation is the possibility that the waiting space may in fact be limited. Another possibility is that arrival rate is state dependent. That is, potential customers are discouraged from entering the queue if they observe a long line at the time they arrive. Another practical limitation of the model is that the arrival process is not stationary.
