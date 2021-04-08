@@ -254,7 +254,6 @@ While studying waiting lines, where jobs wait for processing or service, the mod
 Copyright information
 © Kluwer Academic Publishers 2000
 
-# Motivation is solven single queueing channel problem:
 
 
 # Code result output:
